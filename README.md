@@ -1,13 +1,5 @@
 # harry_potter_adilet
 
-# Harry Potter Flutter App
-
-A Flutter application built with Clean Architecture principles that displays Harry Potter characters and spells using the HP API.
-
-## Architecture
-
-This project follows Clean Architecture with the following layers:
-
 ### 🏗️ Project Structure
 
 ```
@@ -56,17 +48,6 @@ lib/
 └── main.dart
 ```
 
-## 🛠️ Technologies Used
-
-- **Flutter & Dart** - Framework and language
-- **Clean Architecture** - Project structure and separation of concerns
-- **Cubit (flutter_bloc)** - State management
-- **Dio** - HTTP client for API requests
-- **GetIt** - Dependency injection
-- **json_annotation** - JSON serialization/deserialization
-- **Dartz** - Functional programming (Either type)
-- **Equatable** - Value object comparison
-
 ## 🔧 Setup Instructions
 
 Flutter SDK - 3.24.3
@@ -108,3 +89,4 @@ Flutter SDK - 3.24.3
 - `GET /characters/staff` - Hogwarts staff
 - `GET /characters/house/{house}` - Characters by house
 - `GET /spells` - All spells
+

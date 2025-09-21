@@ -50,9 +50,6 @@ lib/
 │       └── spell/
 │           ├── spell_cubit.dart
 │           └── spell_state.dart
-├── features/
-│   └── home_page/
-│       └── home_page.dart             # UI screens
 ├── network/
 │   ├── hp_urls.dart                   # API endpoints
 │   └── rest_client.dart               # HTTP client wrapper
@@ -72,9 +69,11 @@ lib/
 
 ## 🔧 Setup Instructions
 
+Flutter SDK - 3.24.3
+
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Adikbai/AdiletNfactorialHarryPotter.git
    cd harry_potter_adilet
    ```
 
